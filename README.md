@@ -85,13 +85,27 @@ Data tersusun rapi di Google Sheets dan file desain tersimpan di Google Drive.
 ### 4. Bot Interaksi & Laporan
 Bot interaksi terdiri dari 2, yang pertama notif orderan. Bot ini untuk internal karyawan yang berfungsi menerima notif apabila ada orderan yang masuk dan karyawan bisa mengetik `/done` di Telegram untuk menyelesaikan pesanan. Bot yang kedua yaitu admin yang berfungsi mengirim notif ke pemesan apabila pembayaran sudah diterima dan pesanan sudah selesai dan siap diambil.
 
-![Telegram Bot](img/tele1.png)
+![Telegram Bot](img/tele1.png)  
 *(Screenshot interaksi Telegram)*
 
 ---
 
 ![Telegram Bot](img/tele2.png)
 *(Screenshot interaksi Telegram)*
+
+---
+
+### 5. Integrasi ke Website
+Workflow ini diintegrasikan kedalam website menggunakan webhook, selain dapat menerima orderan melalui form website tersebut juga dapat melakukan pembayaran melalui lynk.id. Selain itu juga pada web tersebut dapat melacak status orderan dengan mengisi no invoice yang didapat dari notifikasi.
+
+![Form pada Web](img/web1.png)  
+*(Screenshot form order di web)*
+
+---
+
+![Telegram Bot](img/web2.png)
+![Telegram Bot](img/web3.png)
+*(Screenshot lacak orderan)*
 
 ---
 
