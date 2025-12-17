@@ -127,29 +127,10 @@ Workflow ini diintegrasikan kedalam website menggunakan webhook, selain dapat me
 ## 🚀 Teknologi yang Digunakan
 
 *   **Orchestrator**: n8n (Workflow Automation)
-*   **Artificial Intelligence**: Google Gemini (PaLM) API
+*   **Artificial Intelligence**: Google Gemini
 *   **Database**: Google Sheets
 *   **Storage**: Google Drive
-*   **Messaging**: Telegram Bot API
-*   **Email**: Gmail API
-*   **Payment Integration**: Webhook (Standard Signature Validation)
+*   **Messaging**: Telegram
+*   **Email**: Gmail
+*   **Payment Integration**: Webhook lynk.id (Standard Signature Validation)
 *   **Code**: JavaScript (untuk manipulasi data kompleks)
-
-## 🛠️ Cara Menggunakan dan Mengembangkan
-
-Untuk menjalankan sistem ini di n8n lokal atau cloud Anda:
-
-1.  **Import Workflow:**
-    *   Import file `order management.json` dan `Payment gateway.json` ke n8n.
-2.  **Konfigurasi Kredensial:**
-    *   Hubungkan akun Google (Drive, Sheets, Gmail, PaLM/Gemini).
-    *   Buat bot Telegram via BotFather dan masukkan API Token.
-3.  **Persiapkan Google Sheet:**
-    *   Buat sheet dengan header: `Tanggal`, `Jam`, `Invoice`, `Nama`, `No. Whatsapp`, `Email`, `Ukuran Cetak`, `Jumlah`, `File Desain`, `Harga`, `Total`, `Status`.
-4.  **Setup Webhook:**
-    *   Pasang URL Webhook Payment Gateway Anda ke node webhook di workflow *Payment gateway*.
-5.  **Jalankan:**
-    *   Aktifkan workflow dan sistem siap menerima order.
-
----
-*Dikembangkan oleh [Nama Anda] untuk keperluan portofolio Automasi & Integrasi Sistem.*
