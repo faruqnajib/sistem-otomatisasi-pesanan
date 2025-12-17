@@ -90,7 +90,7 @@ Bot interaksi terdiri dari 2, yang pertama notif orderan. Bot ini untuk internal
 
 ---
 
-![Telegram Bot](img/tele2.png)
+![Telegram Bot](img/tele4.png)
 *(Screenshot interaksi Telegram)*
 
 ---
